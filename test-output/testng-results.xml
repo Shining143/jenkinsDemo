@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26868" started-at="2023-03-23T13:45:02 IST" finished-at="2023-03-23T13:45:29 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner@2f0a87b3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="26868" started-at="2023-03-23T13:45:02 IST" finished-at="2023-03-23T13:45:29 IST">
+      <class name="tests.Runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.Runner@2f0a87b3]" name="setUpClass" is-config="true" duration-ms="986" started-at="2023-03-23T13:45:02 IST" finished-at="2023-03-23T13:45:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11a8042c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner@2f0a87b3]" name="runScenario" duration-ms="25753" started-at="2023-03-23T13:45:03 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-23T13:45:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["title test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["facebook"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:tests.Runner@2f0a87b3]" name="tearDownClass" is-config="true" duration-ms="77" started-at="2023-03-23T13:45:29 IST" finished-at="2023-03-23T13:45:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
